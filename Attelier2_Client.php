@@ -1,5 +1,5 @@
 <?php
-define('PORT', 0x2BAD);
+define('PORT', 8080);
 define('SERVER', "127.0.0.1");
 
 $sock = socket_create(AF_INET, SOCK_STREAM, SOL_TCP);
